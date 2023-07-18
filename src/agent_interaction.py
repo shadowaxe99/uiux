@@ -1,10 +1,38 @@
-class AgentInteraction:
+import json
+
+
+class NoteTakerAgent:
     def __init__(self):
-        pass
+        self.name = 'Note Taker Agent'
+        self.notes = []
 
-    def initialize_project(self, project_name, objectives):
-        print('Initializing project:', project_name)
-        print('Objectives:', objectives)
+    def take_note(self, note):
+        self.notes.append(note)
 
-    def some_other_function(self):
-        pass
+    def get_notes(self):
+        return self.notes
+
+    def clear_notes(self):
+        self.notes = []
+
+
+
+import json
+
+
+class NoteTakerAgent:
+    def __init__(self):
+        self.name = 'Note Taker Agent'
+        self.notes = []
+
+    def take_note(self, note):
+        self.notes.append(note)
+
+    def get_notes(self):
+        return self.notes
+
+    def clear_notes(self):
+        self.notes = []
+
+
+class AgentInteraction:

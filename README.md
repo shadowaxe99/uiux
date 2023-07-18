@@ -18,13 +18,20 @@ The project is structured into three main components:
 
 Each component is implemented as a Python class in its own file. The `AgentInteraction` class in the `agent_interaction.py` file serves as the main entry point for the application.
 
-## Deployment
+## Dependencies
 
-To deploy this application, you will need Python 3 installed on your machine. No additional dependencies are required.
+The following dependencies are required to run this project:
 
-## Contributing
+- gitpython
+- flask
+- flask-cors
+- jsonschema
+- pyyaml
+- matplotlib
+- pandas
+- seaborn
 
-Contributions are welcome. Please submit a pull request with your proposed changes. Make sure to provide a detailed description of your changes.
+Please make sure to install these dependencies before running the application.
 
 ## License
 
