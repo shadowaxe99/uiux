@@ -1,4 +1,5 @@
 from src.agent_interaction import AgentInteraction
+import sys
 
 if __name__ == '__main__':
     try:

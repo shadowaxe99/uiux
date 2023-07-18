@@ -1,0 +1,5 @@
+gitpython
+flask
+flask-cors
+jsonschema
+pyyaml
